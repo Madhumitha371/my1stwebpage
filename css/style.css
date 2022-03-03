@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.class1{
+    text-align: center;
+}
+.h1{
+    font-size: 45px;
+}
+.h1::first-letter{
+    font-weight:bolder;
+    font-size: 65px;
+    color: brown;
+}
+.p1{
+    font-size: 27px;
+}
+.img-res{
+    width: 30%;
+    text-align: center;
+}
+.grey{
+    color: gray;
+}
+.d-flex{
+    display: flex;
+}
+.img3{
+    width: 50%;
+    padding-right: 0px;
+    padding-left: 12px;
+}
+.class4h{
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+}
+.border{
+    border-color: grey;
+    border: 1px solid grey;
+    display: inline-block;
+}
+.p{
+    padding-top: 12px;
+}
+.btn1{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 34px;
+    margin-bottom: 0px;
+    margin-right: 12px;
+    margin-top: 50%;
+   
+}
+.btn1:hover{
+    background-color: white;
+    border: solid 1px dodgerblue;
+    color:dodgerblue;
+}
+.card1{
+    text-align: center ;
+    animation-name: card-animate;
+    animation-duration: 2s;
+}
+.brand-chip{
+    border: 1px solid grey;
+    padding: 10px 30px;
+    margin:6px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.chips{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-card{
+    box-shadow: grey 1px 2px 4px 3px;
+    width: 410px;
+    height: 570px;
+    margin: 20px;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.subs{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.schedule{
+    width: 65%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 17%;
+}
+.navbar{
+    justify-content: space-between;
+}
+.logo{
+    width: 5%;
+    margin-left: 3%;
+}
+.a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 21px;
+    margin: 10px;
+    font-weight: 700px;
+}
+.bg{
+    background-color: rgb(247, 242, 217);
+}
+.login-card{
+    width: 400px;
+    height: 300px;
+    font-weight: 300;
+    background-color: rgb(103, 21, 128);
+    color: white;
+    padding-left: 15px;
+    font-weight: 350;
+}
+.ipt{
+    border-radius: 300px;
+    font-size: 16px;
+    margin-left: 1%;
+}
+.ipt1{
+    border-radius: 300px;
+    font-size: 16px;
+    margin-left: 8%;
+}
+.forgotpass{
+    color: rgb(227, 238, 227);
+    font-size: 12px;
+}
+.container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btnl{
+    background-color:white;
+    color:rgb(4, 54, 70); 
+    text-decoration: none;
+    padding: 8px 36px 8px 35px;
+    margin:50% 10px 14px 25px;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: 400;
+}
